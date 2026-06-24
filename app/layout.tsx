@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Premium handwoven sarees — Banarasi, Kanjeevaram, Organza, Linen & Designer drapes.',
     url: 'https://AnnayaShopping.store',
     siteName: 'ANNAYA DSR SAREES',
-    images: [{ url: '/hero.webp', width: 1536, height: 1024 }],
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     locale: 'en_IN',
     type: 'website',
   },
@@ -43,10 +43,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ANNAYA DSR SAREES — Premium Handwoven Sarees',
     description: 'Premium handwoven sarees — Banarasi, Kanjeevaram, Organza, Linen & Designer drapes.',
-    images: ['/hero.webp'],
+    images: ['/og-image.jpg'],
   },
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
